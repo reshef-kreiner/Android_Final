@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Movie Reviews App</string>
+    <string name="add_movie_title">צור סרט חדש</string>
+    <string name="add_movie_name">שם</string>
+    <string name="add_movie_year">שנה</string>
+    <string name="add_movie_review">המלצה</string>
+    <string name="add_submit_button_text">הוסף סרט</string>
+    <string name="movie_save_success">סרט חדש נשמר בהצלחה</string>
+    <string name="movie_save_failure">קרתה שגיאה בעת שמירת הסרט</string>
+    <string name="movies">סרטים</string>
+    <string name="no_movies">אין סרטים</string>
+    <string name="choose_image">בחר תמונה</string>
+    <string name="no_image_was_chosen">שום תמונה לא נבחרה</string>
+    <string name="movie_title">שם של סרט</string>
+    <string name="movie_review">המלצה של סרט</string>
+    <string name="movie_year">1997</string>
+</resources>

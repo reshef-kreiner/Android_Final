@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_size">45dp</dimen>
+    <dimen name="corner_radius">20dp</dimen>
+    <dimen name="default_spacing">18dp</dimen>
+    <dimen name="default_spacing_big">28dp</dimen>
+    <dimen name="default_spacing_small">6dp</dimen>
+    <dimen name="default_spacing_medium">14dp</dimen>
+    <dimen name="default_spacing_small_plus">8dp</dimen>
+</resources>

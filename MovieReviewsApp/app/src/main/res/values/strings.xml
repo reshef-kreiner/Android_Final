@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Movie Reviews App</string>
+    <string name="add_movie_title">Add a new movie</string>
+    <string name="add_movie_name">Name</string>
+    <string name="add_movie_year">Year</string>
+    <string name="add_movie_review">Review</string>
+    <string name="add_submit_button_text">Add Movie</string>
+    <string name="movie_save_success">Movie saved successfully</string>
+    <string name="movie_save_failure">Failed to save the movie</string>
+    <string name="movies">Movies</string>
+    <string name="no_movies">No movies</string>
+    <string name="choose_image">Choose image</string>
+    <string name="no_image_was_chosen">No image was chosen</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="movie_review">Movie review</string>
+    <string name="movie_year">1997</string>
+</resources>
