@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Movie Reviews App</string>
+    <string name="app_name">Movie Reviews</string>
     <string name="add_movie_title">Add a new movie</string>
     <string name="add_movie_name">Name</string>
     <string name="add_movie_year">Year</string>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Movie Reviews App</string>
+    <string name="app_name">Movie Reviews</string>
     <string name="add_movie_title">צור סרט חדש</string>
     <string name="add_movie_name">שם</string>
     <string name="add_movie_year">שנה</string>
