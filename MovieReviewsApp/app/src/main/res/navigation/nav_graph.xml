@@ -2,7 +2,7 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/mainMoviesFragment">
+    app:startDestination="@id/openingFragment">
 
     <fragment
         android:id="@+id/addItemFragment"
@@ -26,5 +26,13 @@
         <argument
             android:name="movie_id"
             app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/openingFragment"
+        android:name="com.example.moviereviewsapp.view.fragment.OpeningFragment"
+        android:label="OpeningFragment" >
+        <action
+            android:id="@+id/action_openingFragment_to_mainMoviesFragment"
+            app:destination="@id/mainMoviesFragment" />
     </fragment>
 </navigation>

@@ -15,4 +15,10 @@
     <string name="movie_title">שם של סרט</string>
     <string name="movie_review">המלצה של סרט</string>
     <string name="movie_year">1997</string>
+    <string name="welcome_text">ברוכים הבאים לביקורות הסרטים</string>
+    <string name="my_reviews_button_text">הביקורות שלי</string>
+    <string name="internet_reviews_button_text">ביקורות אינטרנטיות</string>
+
+
+
 </resources>

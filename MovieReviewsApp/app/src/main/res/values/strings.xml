@@ -14,4 +14,8 @@
     <string name="movie_title">Movie Title</string>
     <string name="movie_review">Movie review</string>
     <string name="movie_year">1997</string>
+    <string name="welcome_text">Welcome to \nMovie Reviews</string>
+    <string name="my_reviews_button_text">My Reviews</string>
+    <string name="internet_reviews_button_text">Internet Reviews</string>
+
 </resources>
