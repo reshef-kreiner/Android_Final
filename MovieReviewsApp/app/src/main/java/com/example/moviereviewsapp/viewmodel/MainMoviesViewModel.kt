@@ -15,4 +15,8 @@ class MainMoviesViewModel @Inject constructor(private val movieRepository: Movie
     fun onDeleteClick() {
         movieRepository.deleteMovies()
     }
+
+    fun onBackClick() {
+        navigateBack()
+    }
 }

@@ -26,6 +26,10 @@ class MainMoviesFragment @Inject constructor() : BaseFragment<MainMoviesViewMode
             mainMoviesDeleteButton.setOnClickListener {
                 viewModel.onDeleteClick()
             }
+
+            mainMovieBackButton.setOnClickListener {
+                viewModel.onBackClick()
+            }
         }
 
         childFragmentManager

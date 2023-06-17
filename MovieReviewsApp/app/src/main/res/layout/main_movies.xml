@@ -7,6 +7,18 @@
     android:background="@color/background_gray"
     app:layoutDescription="@xml/main_scene">
 
+    <Button
+        android:id="@+id/main_movie_back_button"
+        style="@style/Widget.Material3.Button.IconButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_spacing"
+        app:icon="@drawable/chevron_left"
+        android:backgroundTint="@color/buttons_green_blueish"
+        app:iconSize="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/main_movies_title"
         android:layout_width="wrap_content"
