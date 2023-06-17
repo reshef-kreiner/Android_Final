@@ -1,48 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center">
+    android:background="@color/background_gray"
+    android:layout_height="match_parent">
 
-    <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/imageView"
-        android:layout_width="300dp"
-        android:layout_height="195dp"
+    <LinearLayout
+        android:id="@+id/iconsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
         android:layout_marginBottom="50sp"
-        app:srcCompat="@drawable/popcorn" />
+        >
+
+        <ImageView
+            android:id="@+id/movie_icon_vector"
+            android:layout_width="160sp"
+            android:layout_height="90sp"
+            android:layout_marginRight="20sp"
+            app:srcCompat="@drawable/movie_icon_text_blue" />
+
+        <ImageView
+            android:id="@+id/popcorn_icon_vector"
+            android:layout_width="160sp"
+            android:layout_height="90sp"
+            app:srcCompat="@drawable/popcorn_icon_text_blue" />
+
+    </LinearLayout>
 
     <TextView
         android:id="@+id/tvWelcome"
-        android:layout_width="319dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="80dp"
-        android:gravity="center"
-        android:inputType="textMultiLine"
-
+        android:layout_below="@id/iconsLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/buttons_green_blueish"
         android:text="@string/welcome_text"
-        android:textSize="30sp"
+        android:gravity="center"
+        android:textSize="50sp"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/btnInternetReviews"
         android:layout_width="201dp"
         android:layout_height="78dp"
-        android:layout_marginBottom="40dp"
+        android:layout_below="@id/tvWelcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
         android:textSize="20sp"
-        android:backgroundTint="@color/buttons_color"
+        android:textColor="@color/background_gray"
+        android:backgroundTint="@color/buttons_green_blueish"
         android:text="@string/internet_reviews_button_text" />
 
     <Button
         android:id="@+id/btnMyReviews"
         android:layout_width="201dp"
         android:layout_height="78dp"
+        android:layout_below="@id/btnInternetReviews"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
         android:textSize="20sp"
-        android:backgroundTint="@color/buttons_color"
+        android:textColor="@color/background_gray"
+        android:backgroundTint="@color/buttons_green_blueish"
         android:text="@string/my_reviews_button_text" />
 
-
-
-</LinearLayout>
+</RelativeLayout>

@@ -30,11 +30,5 @@ class OpeningFragment @Inject constructor() : BaseFragment<OpeningViewModel>() {
             }
         }
 
-        val imageView: CircleImageView = _binding.imageView
-
-        Glide.with(requireContext())
-            .load(R.drawable.popcorn) // Replace with the actual image URL, file path, or resource ID
-            .apply(RequestOptions.circleCropTransform()) // Apply circular crop transformation
-            .into(imageView)
     }
 }

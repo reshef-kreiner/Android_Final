@@ -5,6 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    back
     android:orientation="vertical">
 
     <Button
@@ -121,7 +122,7 @@
         android:layout_marginEnd="@dimen/default_spacing"
         android:text="@string/add_submit_button_text"
         android:textColor="@color/black"
-        android:backgroundTint="@color/buttons_color"
+        android:backgroundTint="@color/buttons_green_blueish"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/add_movie_image_button" />

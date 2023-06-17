@@ -9,6 +9,8 @@
     android:layout_height="wrap_content"
     android:layout_marginStart="@dimen/default_spacing_small"
     android:layout_marginEnd="@dimen/default_spacing_small"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
     app:cardCornerRadius="@dimen/corner_radius"
     app:strokeWidth="0dp"
     card_view:cardBackgroundColor="@android:color/transparent"
@@ -19,7 +21,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="10dp"
-        android:paddingBottom="10dp">
+        android:paddingBottom="10dp"
+        android:background="@color/background_light_gray">
 
         <ImageView
             android:id="@+id/list_item_image"
@@ -37,6 +40,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/default_spacing_medium"
             android:textAppearance="@style/Title"
+            android:textColor="@color/text_green"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@id/list_item_caption"
             app:layout_constraintBottom_toTopOf="@id/list_item_caption"
             app:layout_constraintStart_toEndOf="@id/list_item_image"
@@ -51,6 +56,8 @@
             android:layout_marginTop="3dp"
             android:textAppearance="@style/Caption"
             android:visibility="gone"
+            android:textColor="@color/text_green"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="@id/list_item_title"
             app:layout_constraintTop_toBottomOf="@id/list_item_title"

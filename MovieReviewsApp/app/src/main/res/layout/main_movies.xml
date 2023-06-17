@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
+    android:background="@color/background_gray"
     app:layoutDescription="@xml/main_scene">
 
     <TextView
@@ -11,6 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/movies"
+        android:textColor="@color/buttons_green_blueish"
         android:textAppearance="@style/TextAppearance.Material3.HeadlineLarge" />
 
     <Button
@@ -19,6 +21,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:icon="@drawable/delete"
+        android:backgroundTint="@color/buttons_green_blueish"
+        android:textColor="@color/buttons_green_blueish"
         app:iconSize="0dp" />
 
     <androidx.fragment.app.FragmentContainerView
@@ -31,6 +35,6 @@
         style="@style/Widget.Material3.FloatingActionButton.Large.Primary"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/buttons_color"
+        android:backgroundTint="@color/buttons_green_blueish"
         android:src="@drawable/add" />
 </androidx.constraintlayout.motion.widget.MotionLayout>
